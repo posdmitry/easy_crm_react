@@ -1,0 +1,15 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="utils.define_trading_time.DefineTradingTime.__setitem__" />
+          <option value="utils.define_trading_time.DefineTradingTime.__getitem__" />
+          <option value="email.contentmanager._encode_text" />
+          <option value="email.message.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
