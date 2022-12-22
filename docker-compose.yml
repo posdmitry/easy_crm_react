@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  easy_frontend:
+    build: .
+    container_name: easy_frontend
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/app
+      - ./app/node_modules
+    stdin_open: true
+    tty: true
